@@ -6,7 +6,7 @@ namespace Day9_Practice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
