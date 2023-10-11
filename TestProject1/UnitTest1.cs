@@ -17,5 +17,13 @@ namespace TestProject1
             Assert.AreEqual(Expected[0], one);
             Assert.AreEqual(Expected[1], morethanone);
         }
+        [TestMethod]
+        public void SwapCompetetion()
+        {
+            SwapCompetetion swap = new SwapCompetetion();
+            string actual = "YES";
+            string Expected = swap.checkString("part","trap");
+            Assert.AreEqual(actual,Expected);
+        }
     }
 }
